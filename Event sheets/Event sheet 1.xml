@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="papel" sid="513138937597135" static="0" type="number">0</variable>
         <event-block sid="104041021769541">
             <conditions>
                 <condition id="0" name="On key pressed" sid="645054501234069" type="Keyboard">
@@ -24,6 +25,30 @@
             <actions>
                 <action id="7" name="Set mirrored" sid="225167228550838" type="Sprite3">
                     <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="938138615575312">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="770304680117350" type="Sprite3">
+                    <param id="0" name="Object">Sprite7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="802492898214538" type="System">
+                    <param id="0" name="Variable">papel</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="524083358508840" type="Sprite7" />
+            </actions>
+        </event-block>
+        <event-block sid="590552380041200">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="456986956946903" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="532105215184928" type="Text">
+                    <param id="0" name="Text">papel</param>
                 </action>
             </actions>
         </event-block>
