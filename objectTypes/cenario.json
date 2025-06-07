@@ -1,0 +1,23 @@
+{
+	"name": "cenario",
+	"plugin-id": "TiledBg",
+	"sid": 718817199511128,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1875,
+		"height": 625,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\users\\igor\\Desktop\\Little_Bits_Office_tileset\\2206_w023_n003_2591b_p1_2591.jpg",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 4005697,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}
