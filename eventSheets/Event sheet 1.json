@@ -25,18 +25,26 @@
 			],
 			"actions": [
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 802492898214538,
-					"parameters": {
-						"variable": "papel",
-						"value": "1"
-					}
-				},
-				{
 					"id": "destroy",
 					"objectClass": "bolinha_de_papel",
 					"sid": 524083358508840
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 598447585612437,
+					"parameters": {
+						"variable": "papel",
+						"value": "20"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "BarraDeProgresso",
+					"sid": 506462329644945,
+					"parameters": {
+						"value": "papel"
+					}
 				}
 			],
 			"sid": 938138615575312
@@ -148,6 +156,12 @@
 				}
 			],
 			"sid": 879778578158163
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 519566220102823
 		}
 	],
 	"sid": 297663526027258

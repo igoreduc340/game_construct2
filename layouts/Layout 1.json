@@ -179,8 +179,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 251.24256897,
-						"y": 186.590744019,
+						"x": 251,
+						"y": 328,
 						"width": 40,
 						"height": 40,
 						"originX": 0.5,
@@ -219,8 +219,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 467.603729248,
-						"y": 19.318969727,
+						"x": 299,
+						"y": 403,
 						"width": 40,
 						"height": 40,
 						"originX": 0.5,
@@ -389,7 +389,95 @@
 			"name": "Layer 1",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "imageremovebgpreview",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"sid": 339334367081484,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"PularAtravés": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 339334367081484,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 43,
+						"y": 380,
+						"width": 92.24392730256372,
+						"height": 146.77486775214558,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BarraDeProgresso",
+					"properties": {
+						"value": 0,
+						"maximum": 100,
+						"tooltip": "",
+						"initially-visible": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 12,
+					"sid": 884299512829032,
+					"tags": "",
+					"instanceVariables": {
+						"Variável1": 0
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 884299512829032,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 464,
+						"y": 43,
+						"width": 105.29957264870546,
+						"height": 13.162446581088183,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
 			"sid": 931588313836954,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
