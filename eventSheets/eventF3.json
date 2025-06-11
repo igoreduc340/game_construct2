@@ -1,5 +1,5 @@
 {
-	"name": "eventF2",
+	"name": "eventF3",
 	"events": [
 		{
 			"eventType": "include",
@@ -7,13 +7,13 @@
 		},
 		{
 			"eventType": "variable",
-			"name": "Organicos",
+			"name": "Metais",
 			"type": "number",
 			"initialValue": "0",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 317701152211491
+			"sid": 899646314349610
 		},
 		{
 			"eventType": "block",
@@ -21,7 +21,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "personagem",
-					"sid": 205089387848767,
+					"sid": 830569963877435,
 					"parameters": {
 						"object": "imageremovebgpreview2"
 					}
@@ -31,7 +31,7 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 619536816076119,
+					"sid": 137447609157756,
 					"parameters": {
 						"variable": "Organicos",
 						"value": "20"
@@ -40,7 +40,7 @@
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 464838830278616,
+					"sid": 834550269941013,
 					"parameters": {
 						"audio-file": "geting-ball-paper",
 						"loop": "not-looping",
@@ -52,10 +52,10 @@
 				{
 					"id": "destroy",
 					"objectClass": "imageremovebgpreview2",
-					"sid": 546786147037930
+					"sid": 648164258865009
 				}
 			],
-			"sid": 510220966114511
+			"sid": 639962184496779
 		},
 		{
 			"eventType": "block",
@@ -63,20 +63,20 @@
 				{
 					"id": "every-tick",
 					"objectClass": "System",
-					"sid": 855812721686354
+					"sid": 239462214643745
 				}
 			],
 			"actions": [
 				{
 					"id": "set-progress",
 					"objectClass": "BarraDeProgresso",
-					"sid": 633614292255235,
+					"sid": 692380986844340,
 					"parameters": {
 						"value": "Organicos"
 					}
 				}
 			],
-			"sid": 319532992394994
+			"sid": 108471467630159
 		},
 		{
 			"eventType": "block",
@@ -84,7 +84,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "personagem",
-					"sid": 573376835896361,
+					"sid": 258732266084062,
 					"parameters": {
 						"object": "imageremovebgpreview3"
 					}
@@ -92,7 +92,7 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 275534317102446,
+					"sid": 783547636713578,
 					"parameters": {
 						"variable": "Organicos",
 						"comparison": 5,
@@ -104,7 +104,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "fundo_txt_mensagem",
-					"sid": 443680744255921,
+					"sid": 786667251229091,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -112,7 +112,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "txt_mensagem",
-					"sid": 337833311707220,
+					"sid": 500383610690163,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -120,7 +120,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Botão",
-					"sid": 265187985589211,
+					"sid": 630806702105874,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -128,7 +128,7 @@
 				{
 					"id": "play",
 					"objectClass": "Áudio",
-					"sid": 374364064687445,
+					"sid": 599655347724983,
 					"parameters": {
 						"audio-file": "mixkit-game-level-completed-2059",
 						"loop": "not-looping",
@@ -140,14 +140,14 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 329856077632694,
+					"sid": 137507678716490,
 					"parameters": {
 						"variable": "Organicos",
 						"value": "0"
 					}
 				}
 			],
-			"sid": 339774198910954
+			"sid": 855260672204736
 		},
 		{
 			"eventType": "block",
@@ -155,14 +155,14 @@
 				{
 					"id": "on-clicked",
 					"objectClass": "Botão",
-					"sid": 319707765904557
+					"sid": 779294558780129
 				}
 			],
 			"actions": [
 				{
 					"id": "set-visible",
 					"objectClass": "fundo_txt_mensagem",
-					"sid": 316591065124174,
+					"sid": 979683810470578,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -170,7 +170,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "txt_mensagem",
-					"sid": 161422286356419,
+					"sid": 442907186128165,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -178,7 +178,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Botão",
-					"sid": 153947963391888,
+					"sid": 570257067872191,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -186,14 +186,14 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 929199665478390,
+					"sid": 820106136633770,
 					"parameters": {
 						"layout": "Fase03"
 					}
 				}
 			],
-			"sid": 769592221059186
+			"sid": 322459333602204
 		}
 	],
-	"sid": 977946203040106
+	"sid": 286579321956582
 }

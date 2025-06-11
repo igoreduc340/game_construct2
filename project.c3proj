@@ -128,7 +128,9 @@
 			"Sprite3",
 			"Sprite4",
 			"imageremovebgpreview2",
-			"imageremovebgpreview3"
+			"imageremovebgpreview3",
+			"Sprite5",
+			"Sprite6"
 		],
 		"subfolders": []
 	},
@@ -142,7 +144,8 @@
 	"layouts": {
 		"items": [
 			"Fase01",
-			"Fase02"
+			"Fase02",
+			"Fase03"
 		],
 		"subfolders": []
 	},
@@ -150,7 +153,8 @@
 		"items": [
 			"eventF1",
 			"eventF2",
-			"eventGeral"
+			"eventGeral",
+			"eventF3"
 		],
 		"subfolders": []
 	},
