@@ -55,6 +55,34 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
+					"sid": 100359334781329,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 941385996972708,
+					"parameters": {
+						"audio-file": "cartoon-jump-sound-effect_9TMBNL0N",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 890754690196422
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
 					"sid": 905557649883754,
 					"parameters": {
 						"key": 39
@@ -156,12 +184,6 @@
 				}
 			],
 			"sid": 879778578158163
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 519566220102823
 		}
 	],
 	"sid": 297663526027258
