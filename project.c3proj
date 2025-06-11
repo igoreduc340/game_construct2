@@ -22,6 +22,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "HTMLElement",
+			"name": "Elemento HTML",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Teclado",
 			"author": "Scirra",
@@ -36,8 +43,22 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fonte de sprites",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -98,7 +119,16 @@
 			"Áudio",
 			"fundo_txt_mensagem",
 			"txt_mensagem",
-			"Botão"
+			"Botão",
+			"EntradaDeTexto",
+			"ElementoHTML",
+			"FonteDeSprites",
+			"Sprite",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"imageremovebgpreview2",
+			"imageremovebgpreview3"
 		],
 		"subfolders": []
 	},
@@ -111,13 +141,16 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Fase01",
+			"Fase02"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"eventF1",
+			"eventF2",
+			"eventGeral"
 		],
 		"subfolders": []
 	},

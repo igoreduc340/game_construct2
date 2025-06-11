@@ -1,7 +1,7 @@
 {
-	"name": "fundo_txt_mensagem",
+	"name": "Sprite2",
 	"plugin-id": "Sprite",
-	"sid": 354167225506273,
+	"sid": 625901778534777,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,21 +12,21 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 1479,
+						"height": 977,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 5787588,
+						"imageSpriteId": 7275604,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 243697526213068,
+				"sid": 524074307220502,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

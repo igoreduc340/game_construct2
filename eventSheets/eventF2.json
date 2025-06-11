@@ -1,0 +1,199 @@
+{
+	"name": "eventF2",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "eventGeral"
+		},
+		{
+			"eventType": "variable",
+			"name": "Organicos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 317701152211491
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "personagem",
+					"sid": 205089387848767,
+					"parameters": {
+						"object": "imageremovebgpreview2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 619536816076119,
+					"parameters": {
+						"variable": "Organicos",
+						"value": "20"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 464838830278616,
+					"parameters": {
+						"audio-file": "geting-ball-paper",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "imageremovebgpreview2",
+					"sid": 546786147037930
+				}
+			],
+			"sid": 510220966114511
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 855812721686354
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "BarraDeProgresso",
+					"sid": 633614292255235,
+					"parameters": {
+						"value": "Organicos"
+					}
+				}
+			],
+			"sid": 319532992394994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "personagem",
+					"sid": 573376835896361,
+					"parameters": {
+						"object": "imageremovebgpreview3"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 275534317102446,
+					"parameters": {
+						"variable": "Organicos",
+						"comparison": 5,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "fundo_txt_mensagem",
+					"sid": 443680744255921,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "txt_mensagem",
+					"sid": 337833311707220,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botão",
+					"sid": 265187985589211,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 374364064687445,
+					"parameters": {
+						"audio-file": "mixkit-game-level-completed-2059",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 329856077632694,
+					"parameters": {
+						"variable": "Organicos",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 339774198910954
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botão",
+					"sid": 319707765904557
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "fundo_txt_mensagem",
+					"sid": 316591065124174,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "txt_mensagem",
+					"sid": 161422286356419,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botão",
+					"sid": 153947963391888,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 664982541729613,
+					"parameters": {
+						"layout": "Fase02"
+					}
+				}
+			],
+			"sid": 769592221059186
+		}
+	],
+	"sid": 977946203040106
+}

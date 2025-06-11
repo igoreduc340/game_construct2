@@ -1,0 +1,142 @@
+{
+	"name": "eventGeral",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 788438241193549,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 260858448571481,
+					"parameters": {
+						"audio-file": "cartoon-jump-sound-effect_9TMBNL0N",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 235338018951461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 936499367179522,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "personagem",
+					"sid": 310639975102890,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "personagem",
+					"sid": 709016189307340,
+					"parameters": {
+						"animation": "\"ID_WALK\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "personagem",
+					"sid": 724531614915544,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 107241204782911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 684495027402602,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "personagem",
+					"sid": 347099488359440,
+					"parameters": {
+						"animation": "\"ID_WALK\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "simulate-control",
+					"objectClass": "personagem",
+					"sid": 260672148071768,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "personagem",
+					"sid": 815573328902010,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 513207100115746
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "personagem",
+					"sid": 212133233969630,
+					"behaviorType": "Platform",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "personagem",
+					"sid": 290750727236685,
+					"parameters": {
+						"animation": "\"ID_IDLE\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 158813022153207
+		}
+	],
+	"sid": 714388038201262
+}
