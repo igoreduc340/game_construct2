@@ -39,11 +39,15 @@
 					}
 				},
 				{
-					"id": "set-progress",
-					"objectClass": "BarraDeProgresso",
-					"sid": 506462329644945,
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 931086073998528,
 					"parameters": {
-						"value": "papel"
+						"audio-file": "geting-ball-paper",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -184,6 +188,141 @@
 				}
 			],
 			"sid": 879778578158163
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 650141434001066
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "personagem",
+					"sid": 875963515707220,
+					"parameters": {
+						"object": "imageremovebgpreview"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 845535180276130,
+					"parameters": {
+						"variable": "papel",
+						"comparison": 5,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "fundo_txt_mensagem",
+					"sid": 372316000983354,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "txt_mensagem",
+					"sid": 417820189257920,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botão",
+					"sid": 331110350733320,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 676367495975053,
+					"parameters": {
+						"audio-file": "mixkit-game-level-completed-2059",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 326107704900664,
+					"parameters": {
+						"variable": "papel",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 494649444611620
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botão",
+					"sid": 555333550183402
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "fundo_txt_mensagem",
+					"sid": 137204260089486,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "txt_mensagem",
+					"sid": 522106723254418,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Botão",
+					"sid": 124979226542420,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 253212194256240
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 797544000667469
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "BarraDeProgresso",
+					"sid": 360355834479628,
+					"parameters": {
+						"value": "papel"
+					}
+				}
+			],
+			"sid": 687079337675259
 		}
 	],
 	"sid": 297663526027258

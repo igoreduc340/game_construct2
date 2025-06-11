@@ -12,14 +12,9 @@
 			"sid": 841140264858783
 		},
 		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 507918466036380
-		},
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 442349589762366
+			"behaviorId": "scrollto",
+			"name": "CentrarEm",
+			"sid": 133893375459959
 		}
 	],
 	"effectTypes": [],

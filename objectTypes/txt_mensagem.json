@@ -1,0 +1,10 @@
+{
+	"name": "txt_mensagem",
+	"plugin-id": "Text",
+	"sid": 976148228858535,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
