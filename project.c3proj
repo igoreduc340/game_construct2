@@ -150,7 +150,9 @@
 			"Mouse",
 			"Sprite8",
 			"Botão2",
-			"ChatGPTImage13DeJunDe202501_18_"
+			"ChatGPTImage13DeJunDe202501_18_",
+			"TextoDoSeuParágrafo",
+			"Sprite9"
 		],
 		"subfolders": []
 	},

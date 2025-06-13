@@ -7,30 +7,30 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "telainicial",
+					"type": "Sprite9",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 76,
-					"sid": 187964101430496,
+					"uid": 71,
+					"sid": 690425494857286,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 187964101430496,
+						"sid": 690425494857286,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 436,
-						"y": 243,
-						"width": 848.8927941856433,
-						"height": 477.50219672942427,
+						"x": 430.344654785254,
+						"y": 241.11695200828186,
+						"width": 859.689309570508,
+						"height": 481.2339040165637,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
