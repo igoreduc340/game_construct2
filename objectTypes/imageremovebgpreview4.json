@@ -7,11 +7,6 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "solid",
-			"name": "Sólido",
-			"sid": 886950804741967
-		},
-		{
 			"behaviorId": "Rotate",
 			"name": "Girar",
 			"sid": 687691039877587

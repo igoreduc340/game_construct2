@@ -137,6 +137,15 @@
 						"variable": "Organicos",
 						"value": "0"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "imageremovebgpreview3",
+					"sid": 267965822249416,
+					"parameters": {
+						"animation": "\"coletandoLixo\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 339774198910954
@@ -161,27 +170,6 @@
 				}
 			],
 			"sid": 769592221059186
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 460170790282304
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "textoFase2",
-					"sid": 268343165674621,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 142934244874172
 		}
 	],
 	"sid": 977946203040106

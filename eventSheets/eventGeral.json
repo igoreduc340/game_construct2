@@ -136,6 +136,57 @@
 				}
 			],
 			"sid": 158813022153207
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 230908935870382,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botãoStart"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 759061465946986,
+					"parameters": {
+						"layout": "Fase01"
+					}
+				}
+			],
+			"sid": 332185612254047
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 774772416051542
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 939362296745668,
+					"parameters": {
+						"audio-file": "Kevin MacLeod - Pixelland ♫ NO COPYRIGHT 8-bit Music",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 957910764532433
 		}
 	],
 	"sid": 714388038201262

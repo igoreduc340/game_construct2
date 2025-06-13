@@ -203,27 +203,6 @@
 				}
 			],
 			"sid": 322459333602204
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 302457152902933
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Texto_do_seu_parágrafo__2_removebgpreview",
-					"sid": 446027753853349,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 936827053105279
 		}
 	],
 	"sid": 286579321956582
