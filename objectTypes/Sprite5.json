@@ -12,15 +12,15 @@
 			{
 				"frames": [
 					{
-						"width": 6000,
-						"height": 3000,
+						"width": 2400,
+						"height": 1200,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"fileType": "image/jpeg",
-						"imageSpriteId": 1722167,
+						"fileType": "image/png",
+						"imageSpriteId": 9458540,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""

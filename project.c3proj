@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 44002,
-	"name": "New project",
+	"name": "recicla-game",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -351,5 +351,5 @@
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
-	"firstLayout": null
+	"firstLayout": "telaInicial"
 }
