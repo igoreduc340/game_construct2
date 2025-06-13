@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -92,13 +99,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Centrar em",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "solid",
 			"name": "Sólido",
 			"author": "Scirra",
@@ -130,7 +130,11 @@
 			"imageremovebgpreview2",
 			"imageremovebgpreview3",
 			"Sprite5",
-			"Sprite6"
+			"Sprite6",
+			"telainicial",
+			"botãoStart",
+			"telainicial2",
+			"Mouse"
 		],
 		"subfolders": []
 	},
@@ -143,6 +147,7 @@
 	},
 	"layouts": {
 		"items": [
+			"telaInicial",
 			"Fase01",
 			"Fase02",
 			"Fase03"

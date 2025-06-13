@@ -1,0 +1,58 @@
+{
+	"name": "botãoStart",
+	"plugin-id": "Sprite",
+	"sid": 717720418700263,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 205,
+						"height": 91,
+						"originX": 0.4975609756097561,
+						"originY": 0.2692307692307692,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8470770,
+						"collisionPoly": {
+							"points": [
+								0.09268292682926815,
+								0.02197802197802198,
+								0.9024390243902439,
+								0.02197802197802198,
+								0.9902439024390244,
+								0.21978021978021978,
+								0.9024390243902439,
+								0.989010989010989,
+								0.09268292682926815,
+								0.989010989010989,
+								0.004878048780487666,
+								0.7912087912087915,
+								0.004878048780487666,
+								0.21978021978021978
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 975822565149874,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

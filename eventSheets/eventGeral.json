@@ -58,15 +58,6 @@
 						"animation": "\"ID_WALK\"",
 						"from": "beginning"
 					}
-				},
-				{
-					"id": "simulate-control",
-					"objectClass": "personagem",
-					"sid": 724531614915544,
-					"behaviorType": "Platform",
-					"parameters": {
-						"control": "right"
-					}
 				}
 			],
 			"sid": 107241204782911
@@ -94,15 +85,6 @@
 					}
 				},
 				{
-					"id": "simulate-control",
-					"objectClass": "personagem",
-					"sid": 260672148071768,
-					"behaviorType": "Platform",
-					"parameters": {
-						"control": "left"
-					}
-				},
-				{
 					"id": "set-mirrored",
 					"objectClass": "personagem",
 					"sid": 815573328902010,
@@ -119,8 +101,8 @@
 				{
 					"id": "is-moving",
 					"objectClass": "personagem",
-					"sid": 212133233969630,
-					"behaviorType": "Platform",
+					"sid": 592683978343343,
+					"behaviorType": "Plataforma",
 					"isInverted": true
 				}
 			],
@@ -136,6 +118,57 @@
 				}
 			],
 			"sid": 158813022153207
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 123702324277287,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "botãoStart"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 251426401860365,
+					"parameters": {
+						"layout": "Fase01"
+					}
+				}
+			],
+			"sid": 646457495176700
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 568198588298330
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 368835082810942,
+					"parameters": {
+						"audio-file": "Kevin MacLeod - Pixelland ♫ NO COPYRIGHT 8-bit Music",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 659211126554252
 		}
 	],
 	"sid": 714388038201262

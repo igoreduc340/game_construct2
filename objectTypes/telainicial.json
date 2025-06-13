@@ -1,7 +1,7 @@
 {
-	"name": "imageremovebgpreview2",
+	"name": "telainicial",
 	"plugin-id": "Sprite",
-	"sid": 970411772566062,
+	"sid": 813860185947603,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,21 +12,21 @@
 			{
 				"frames": [
 					{
-						"width": 118,
-						"height": 238,
+						"width": 1920,
+						"height": 1080,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 146188,
+						"imageSpriteId": 7186413,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 257071023014779,
+				"sid": 973984049155621,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

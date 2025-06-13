@@ -145,6 +145,15 @@
 						"variable": "papel",
 						"value": "0"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "imageremovebgpreview",
+					"sid": 298676068251282,
+					"parameters": {
+						"animation": "\"coletandoPapel\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 494649444611620
@@ -193,31 +202,6 @@
 				}
 			],
 			"sid": 253212194256240
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 440306692854638
-				}
-			],
-			"actions": [
-				{
-					"id": "play",
-					"objectClass": "Áudio",
-					"sid": 368835082810942,
-					"parameters": {
-						"audio-file": "Kevin MacLeod - Pixelland ♫ NO COPYRIGHT 8-bit Music",
-						"loop": "looping",
-						"volume": "0",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
-				}
-			],
-			"sid": 659211126554252
 		}
 	],
 	"sid": 297663526027258

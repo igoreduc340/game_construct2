@@ -145,6 +145,15 @@
 						"variable": "Organicos",
 						"value": "0"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "imageremovebgpreview3",
+					"sid": 503872274860614,
+					"parameters": {
+						"animation": "\"coletandoLixo\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 339774198910954
