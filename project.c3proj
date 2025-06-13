@@ -85,6 +85,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Rotate",
+			"name": "Girar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "jumpthru",
 			"name": "Pular através",
 			"author": "Scirra",
@@ -130,7 +137,14 @@
 			"imageremovebgpreview2",
 			"imageremovebgpreview3",
 			"Sprite5",
-			"Sprite6"
+			"Sprite6",
+			"imageremovebgpreview4",
+			"imageremovebgpreview5",
+			"imageremovebgpreview6",
+			"textoFase1",
+			"textoFase2",
+			"Texto_do_seu_parágrafo__2_removebgpreview",
+			"Sprite7"
 		],
 		"subfolders": []
 	},

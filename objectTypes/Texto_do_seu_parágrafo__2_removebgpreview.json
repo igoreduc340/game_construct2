@@ -1,7 +1,7 @@
 {
-	"name": "fundo_txt_mensagem",
+	"name": "Texto_do_seu_parágrafo__2_removebgpreview",
 	"plugin-id": "Sprite",
-	"sid": 354167225506273,
+	"sid": 607918702739868,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,22 +12,22 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 500,
+						"height": 500,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6730687,
+						"imageSpriteId": 8100013,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 243697526213068,
-				"name": "Animation 1",
+				"sid": 904305782327042,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

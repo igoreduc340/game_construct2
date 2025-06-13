@@ -1,11 +1,17 @@
 {
-	"name": "fundo_txt_mensagem",
+	"name": "Sprite7",
 	"plugin-id": "Sprite",
-	"sid": 354167225506273,
+	"sid": 619001120310041,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 172175903057282
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -20,13 +26,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6730687,
+						"imageSpriteId": 5059435,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 243697526213068,
+				"sid": 836893427617415,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

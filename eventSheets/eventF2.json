@@ -103,16 +103,8 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "fundo_txt_mensagem",
-					"sid": 443680744255921,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "txt_mensagem",
-					"sid": 337833311707220,
+					"objectClass": "textoFase2",
+					"sid": 440339636537555,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -160,30 +152,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-visible",
-					"objectClass": "fundo_txt_mensagem",
-					"sid": 316591065124174,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "txt_mensagem",
-					"sid": 161422286356419,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Botão",
-					"sid": 153947963391888,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 929199665478390,
@@ -193,6 +161,27 @@
 				}
 			],
 			"sid": 769592221059186
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 460170790282304
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "textoFase2",
+					"sid": 268343165674621,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 142934244874172
 		}
 	],
 	"sid": 977946203040106

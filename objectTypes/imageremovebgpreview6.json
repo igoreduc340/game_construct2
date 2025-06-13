@@ -1,7 +1,7 @@
 {
-	"name": "fundo_txt_mensagem",
+	"name": "imageremovebgpreview6",
 	"plugin-id": "Sprite",
-	"sid": 354167225506273,
+	"sid": 434964697787601,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,22 +12,22 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 190,
+						"height": 311,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6730687,
+						"imageSpriteId": 97991,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 243697526213068,
-				"name": "Animation 1",
+				"sid": 763306107730384,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

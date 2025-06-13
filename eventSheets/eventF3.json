@@ -21,9 +21,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "personagem",
-					"sid": 830569963877435,
+					"sid": 987166124039796,
 					"parameters": {
-						"object": "imageremovebgpreview2"
+						"object": "imageremovebgpreview4"
 					}
 				}
 			],
@@ -31,9 +31,9 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 137447609157756,
+					"sid": 188556788491874,
 					"parameters": {
-						"variable": "Organicos",
+						"variable": "Metais",
 						"value": "20"
 					}
 				},
@@ -51,11 +51,53 @@
 				},
 				{
 					"id": "destroy",
-					"objectClass": "imageremovebgpreview2",
-					"sid": 648164258865009
+					"objectClass": "imageremovebgpreview4",
+					"sid": 619154805736684
 				}
 			],
 			"sid": 639962184496779
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "personagem",
+					"sid": 917738704887444,
+					"parameters": {
+						"object": "imageremovebgpreview5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 784547218797555,
+					"parameters": {
+						"variable": "Metais",
+						"value": "20"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 442218310605049,
+					"parameters": {
+						"audio-file": "geting-ball-paper",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "imageremovebgpreview5",
+					"sid": 644446212317525
+				}
+			],
+			"sid": 619366840630479
 		},
 		{
 			"eventType": "block",
@@ -70,9 +112,9 @@
 				{
 					"id": "set-progress",
 					"objectClass": "BarraDeProgresso",
-					"sid": 692380986844340,
+					"sid": 110640281951009,
 					"parameters": {
-						"value": "Organicos"
+						"value": "Metais"
 					}
 				}
 			],
@@ -84,17 +126,17 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "personagem",
-					"sid": 258732266084062,
+					"sid": 487883732785692,
 					"parameters": {
-						"object": "imageremovebgpreview3"
+						"object": "imageremovebgpreview6"
 					}
 				},
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 783547636713578,
+					"sid": 791578186323304,
 					"parameters": {
-						"variable": "Organicos",
+						"variable": "Metais",
 						"comparison": 5,
 						"value": "100"
 					}
@@ -103,16 +145,8 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "fundo_txt_mensagem",
-					"sid": 786667251229091,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "txt_mensagem",
-					"sid": 500383610690163,
+					"objectClass": "Texto_do_seu_parágrafo__2_removebgpreview",
+					"sid": 961925296785925,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -140,9 +174,9 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 137507678716490,
+					"sid": 277170203545592,
 					"parameters": {
-						"variable": "Organicos",
+						"variable": "Metais",
 						"value": "0"
 					}
 				}
@@ -160,30 +194,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-visible",
-					"objectClass": "fundo_txt_mensagem",
-					"sid": 979683810470578,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "txt_mensagem",
-					"sid": 442907186128165,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Botão",
-					"sid": 570257067872191,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 820106136633770,
@@ -193,6 +203,27 @@
 				}
 			],
 			"sid": 322459333602204
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 302457152902933
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto_do_seu_parágrafo__2_removebgpreview",
+					"sid": 446027753853349,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 936827053105279
 		}
 	],
 	"sid": 286579321956582
