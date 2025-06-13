@@ -147,7 +147,10 @@
 			"Sprite7",
 			"botãoStart",
 			"telainicial",
-			"Mouse"
+			"Mouse",
+			"Sprite8",
+			"Botão2",
+			"ChatGPTImage13DeJunDe202501_18_"
 		],
 		"subfolders": []
 	},
@@ -163,7 +166,8 @@
 			"telaInicial",
 			"Fase01",
 			"Fase02",
-			"Fase03"
+			"Fase03",
+			"telafinal"
 		],
 		"subfolders": []
 	},
@@ -172,7 +176,8 @@
 			"eventF1",
 			"eventF2",
 			"eventGeral",
-			"eventF3"
+			"eventF3",
+			"EventFinal"
 		],
 		"subfolders": []
 	},

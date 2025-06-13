@@ -1,0 +1,53 @@
+{
+	"name": "EventFinal",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botão",
+					"sid": 763314764100502
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 898506959384992,
+					"parameters": {
+						"layout": "Fase01"
+					}
+				}
+			],
+			"sid": 854409763882959
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 659792834630425,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ChatGPTImage13DeJunDe202501_18_"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 581371727229515,
+					"parameters": {
+						"layout": "Fase01"
+					}
+				}
+			],
+			"sid": 411725950701380
+		}
+	],
+	"sid": 799851627015633
+}
